@@ -1,0 +1,30 @@
+section {
+  padding: 10px;
+  background: rgb(233, 227, 227);
+  border-radius: 10px;
+  cursor: default;
+}
+
+section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+}
+
+section h4 {
+  margin-left: 15px;
+}
+
+article {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 14px 31px 3px rgba(106, 108, 120, 1);
+  -moz-box-shadow: 8px 14px 31px 3px rgba(106, 108, 120, 1);
+  box-shadow: 8px 14px 31px 3px rgba(106, 108, 120, 1);
+}
+
+article * {
+  color: black;
+}

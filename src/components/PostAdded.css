@@ -1,0 +1,49 @@
+.postAdded {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.postAdded h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: default;
+}
+
+.postAdded form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  background: rgb(100, 97, 97);
+  resize: none;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+button {
+  color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+  background: orange;
+  border: 1px solid orange;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  transition: 0.3s background, 0.4s color;
+}
+
+button:hover {
+  background: rgba(255, 165, 0, 0.8);
+}
+
+button:active {
+  color: white;
+}
